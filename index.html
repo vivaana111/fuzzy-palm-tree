@@ -1,0 +1,81 @@
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+
+<div class="container">
+  <h2>My family</h2>
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+    <div class="item active">
+        <img src="https://media.s-bol.com/JQ4zv26AOP9o/550x711.jpg" alt="Book" style="width:100%;">
+        <div class="carousel-caption">
+          <h3></h3>
+          <p></p>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="https://img.freepik.com/free-vector/girl-shy-character_1450-155.jpg?size=338&ext=jpg&ga=GA1.2.2140585734.1629504000" alt="me" style="width:100%;">
+        <div class="carousel-caption">
+          <h3>Me</h3>
+          <p>Vivaana</p>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="https://i.pinimg.com/564x/3d/61/3c/3d613ca5408e148f40bffdcaa8206dc1.jpg" alt="Chicago" style="width:100%;">
+        <div class="carousel-caption">
+          <h3>My brother</h3>
+          <p>Rajveer</p>
+        </div>
+      </div>
+    
+      <div class="item">
+        <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxIRERUTExIVEBUVEhUVEhgYEBUVFhkVFRcXFxYXFhUYHSggGBonHRUVITEhJSkrLi8uGB8zODMtNygtLisBCgoKDg0OGhAQGjIlHyUvNTIvLTMyLS04LTUtNS0yLS8uLi03NzAtKzctMS0tLS0tLy01LS0tLS0tLS0tLy0tLf/AABEIAOEA4QMBIgACEQEDEQH/xAAcAAEAAQUBAQAAAAAAAAAAAAAAAgEDBQYHBAj/xAA9EAACAQIDBQUEBwYHAAAAAAAAAQIDEQQSIQUGMUFRE2FxgZEHIqHBQlJicrHC0TKCorLS4RQWIyQzkvD/xAAaAQEAAgMBAAAAAAAAAAAAAAAAAwQCBQYB/8QAJxEBAAICAQMDAwUAAAAAAAAAAAECAxEhBAUSIjFBE2HBUYGRseH/2gAMAwEAAhEDEQA/AO4gAAUjK5CUiUAJAAAAAABFsCQIW7ySYFQAAAAAAACkZXVyEpE48AKgAAAAABFsCQIIkmBUAAC3KROS0IxiAjEmAAAAAAACC+ZMo0BExm3t4sLgYZ8TWjSvfKtZTlb6sI3lLyRka9VU4SnLhGLlJ9yV2fKm29rVcbXqYmq251He175Y/RhHpGK0+PFsjyX8YZVrt2bFe2fAxdoUMRVXXLTiv4p3+BLZ3tkwNSajUpV8On9OUYzivvZJOXomcJBB9ayTwh9dYbEQqQjOElOEkpRlFpxcXqmmuKLh85bie0Gvs1xpy/1cLmvODXvQUneUqTWt+eV3T7m2z6LpzUkmndNJp9U+DLFLxaEdq6SLcpXJTV0UjEzYqxiSAAAAAAABCJMo0BEkkEioAAAAAAAAAAAAAAAAHi25TzYavHrQqL1g0fJtN6LwPqveqs6eBxU1o44WtJeKpyZ8u7PqQi2qkc0ZQlB6awbXuzj9qLSferrmV8/wlxvVsLYtXGVo0qMW7tZ3a8acW7Ocu5a6cXaxve3/AGWTcovCVIWyxVRVW4+8kk5xcYv9q12raNu3Rer2KQXY4l83Vgm+5RbX8z9ToGz6VSFKEatTtqiilOpkUM8ucsi0jfoV1mtImHGNv+znFYaEJRnTrudSFJRipKWeo7Rtdaq/F6W4n0Ns/DdlSp073yU4Qv1yxSv8DT8DFrH4XDzqOtKCxWLzSsml/wAVONlxSjiZq/2DeC1hjjatm99QAAmRAAAAAAAAAAAAAAAAAAAAAAAAAAAAADV/abj4Udl4rM7OpSlRgublVWRJddG34JnzSfUe826mE2hGKxFPM4XySjKUZxvxs1xWnB3RqL9jGAvftsVbp2lL8ezuQZaWtPCStoiGhezXe3/C1Fh6kU6VapFKSSUoTk7K7+lC74crt9x2CpCpJpwqJJ8U4Zn+601bzuY7Z+4WyMJJTcITkmsrrVs+q4Wg3lvforntwGJ7OopctU+tmQXx61EytYrzqZiGm7KljVt1YqeDxEaEk8KpOhP3aT/Ym0ldRdRKTvayk78DrhjsNtzDVJZY1oOTdlFyytvhZJ8TIlukREcSq5ItE+qNAAM0YAAAAAAAAAAAAAAAAARkwJAhbxRKLAqAAAAAAAAYvHYjM7LguPie3EVbJv0+RjsNRc8zVr2dr8MzTtchyzM+mE2GI5tPw5djYJVJpcpzS8FJkljatsvaSt95lmbbbb4ttvx5lCi7TxiYjfL1bKq5K9KXJVYN+CkrnZEcYwOHlUqRhFXba8lzfglqdcp4lRpqT15Fnpp5mGi71EbpL1g8sMfB82vFfoXFXjLhJeupbaJeBBIkmBUAAAAAADANlIu6IOVycVoBUAACKJFGgIkkgkVAAAAAABblK5OSuUjEDH7RlwXm/l8z14Slliur1ZYr4KUpN3VmRez0ldy0Wr0toQR5ec20semaRXbmG36HZ4qtHpVk14SeZfBnhUX0fobFjd6qmeSpKGRSag3GV2lwb15+B5J7zYl/SivCC+dynPu6rFbN4RE1j2/X/GW3Ape/WzLLemlFtW5u9m/3fQ2Oc3ly99/PgaruztmpUxMIVp54zTitIq0rXi9EulvM2rEQyya42LGL4lo+5RaMs+fEzET+FoRdgShxLVp1G2qrG50zOHhaKXd8eZeSCRU9eAAAAAA2W5O5KauIxARiSAAAAAAAAAAAAAAAAAAGne0Da7hFYeDs5rNU+5eyj5tPyXebicq3xquWNq9zjFeCjH53Ic9tVbLtWGMmfc/EbYfiUBXiUXVK06ji1KLs4tSi+jTun6nS3Ny956N6tdGzmkHlafNNNeXU33dXFyxcJ5ssZwa4J2aknZ6vTVMs9PaImYaXvOK1qVvEcR7/AL6e092y6SbbfLh4lqpgZrlfwZ79nU8sNVZttv8AD5Ftzr1AAAAAAAAAAAAAAAAAAAAAAAAAAAAABybeqNsZW+/f1in8zrJzDfqjlxk39eEJfDL+Ur9RHpbfs1tZ5j7fmGAKgoU3Sq8fE2r2dVrYipD61K/nGS/qZqhntyKtsbTX1lOP8Dl+Uzxzq8KvW18unvH2/rl1AAGxcaAAAAAAAAAAAAAAAAAAARjK5GUrkoICQAAAAAARbAkc/wDaNTtWpS60mv8ArK/5jfcvkeDauxaOKy9rFtxvlak01e1+HHguJHkrNq6hb6LPXBmi9vZyMG9Y7c2hF6SqJP7UX+U8v+U6P16nrH+ko2rMTqXR17jhtG4208y+6L/3tH70v5JGRWwaKdnmlZ85fpY2LdbZlKDlONOKask7Xet72b14fiZY67tCDqu4Y/pWiInmNfy2QANmwcwo2Iu66Ftu5cigKgAAAAABBu/gBMELEkwKgAAW5SuTaKRiAjEkAAAAAAACKJFGgKFUgkVAtYmjnjbny8TDNWM8Y3aVKzUuvHxRXz048ljBfU+LB4qNpP1Nh2PRy0l1l7z8+HwsYStSzVIx+tZfE2eKtoY4I5mWfUW4iBstydy5JXKRiWlQjEkAAAAAAACESZRoCJJIJFQAAAAAAAAAAAAAAAAAAAGP2pL9leL/APfEyBidoT999y/v8yLNOqpsEbusbPjmxC+zFv5fmM6Yfd+F88+rSX4v8UZgYY1Uzzu4ACVCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGvbQqaSfWVvW/wChltp7Rp0IqVSahmnGnC/GVSbtGKS1bb+b4IxWPhajF9Z/BJ/3K+fnhZwccslsaFqUe+7+P6JHuLODjanBdIx/AvE1Y1EQgtO7TIADJiAAAAAAAAAAAAAAAAAEWwJAhl8iUWBUAAAAAAKNgVZGDv3EZO5OKA5/vzha09oYWc7rD0p0Oy10liKtWSlfvUKa8M3eePGb1xo4fCOs32depjbys5ZZU8RaF0tcuWUlp0RsntK2fVrYCXYJurSqU68EtW3SlmeVc3a7S52saVu3go7SoYKM6TqUVW2lGs1qqXa3qU239F3nGz62IrV3MruO0fTiZ+J/Eup7JxcK1GE4SU4yirNNNPTk0es4nuxjNobDr1KNXC18Th3LV06c5RuuFWlJJx1XGDa5cGteobv70UcY3GFPEUpJZmquGqU1bRaTayt6rS9/QzrPwgy4prO45hnACD1MkKYIZfJkosCoAAAAAARlKwCcvUqi2lcugAAAIkijQESSQSKgAAAAABstuVybRSMbAIxJAADw7N2RRw8qsqUOz7ap2lRJ+65tJOSjwTdlex7gHu5AAHgQRMo0BGxJIJFQAAAAACMpWILUuSjcJAEioAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAf/Z" alt="mama" style="width:100%;">
+        <div class="carousel-caption">
+          <h3>My mother</h3>
+          <p>Arpita</p>
+        </div>
+      </div>
+      <div class="item">
+        <img src="https://media.istockphoto.com/vectors/happy-handsome-man-showing-thumbs-up-concept-illustration-in-cartoon-vector-id980239992?k=6&m=980239992&s=170667a&w=0&h=4sI3HzIPiwyl_k-KKOKS8piph-R2ZvulTv3qhnjbGJQ=" alt="papa" style="width:100%;">
+        <div class="carousel-caption">
+          <h3>My father</h3>
+          <p>Pranay</p>
+        </div>
+      </div>
+  
+    </div>
+    
+
+    
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+
+</body>
+</html>
